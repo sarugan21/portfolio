@@ -156,16 +156,14 @@ main {
 }
 
 #inabout img {
-  height:70px;
-  margin: 10px 20px 10px 5px;
+  height:60px;
 }
 
-#js {
-  height: 50px;
-}
-
-#php {
-  width: 125px;
+#inabout table {
+  text-align: center;
+  border-spacing: 9px 0;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 #inabout.active {
@@ -222,10 +220,32 @@ main {
   border-bottom: 4px solid rgb(34, 59, 83);
 }
 
-#ingallary p {
-  font-size: 2rem;
-  text-align: center;
-  font-family: 'Cinzel', serif;
+#link img{
+  width: 300px;
+  float: left;
+  margin: 20px 30px 0 10px;
+}
+
+#link2 img{
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-left: 10px;
+  margin-top:25px;
+}
+
+#description p {
+  vertical-align: middle;
+  font-size: 16px;
+  margin: 30px 0 0 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#description2 p {
+  vertical-align: middle;
+  font-size: 16px;
+  margin: 80px 0 0 0;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 #form {

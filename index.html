@@ -6,10 +6,15 @@
   <meta name="description" content="ポートフォリオです">
   <title>Portfolio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-  <link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="CSS/smartphone.css">
+  <link rel="stylesheet" href="CSS/style.css?=v2">
+  <link rel="stylesheet" href="CSS/smartphone.css?=v2">
   <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+    type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -40,26 +45,61 @@
       <p>
         齊藤 慧<br>
         1990年3月20日生まれ。<br>
+        趣味/読書(年間50冊程)、FX、散歩<br><br>
         神奈川大学を卒業後、パッケージ印刷会社に入社。<br>
         某有名なパッケージ印刷に、DTPオペレーターとして携わる。<br>
         現在、興味があったIT・マーケティング知識を独学中です。<br>
+        <h2>SKILL</h2>
         <br>
-        使用可能言語<br>
-        <img src="img/html-5.svg" alt="#">
-        <img src="img/css-3.svg" alt="#">
-        <img src="img/javascript.svg" alt="#" id="js">
-        <img src="img/php.svg" alt="#" id="php">
-        <br>
-        使用可能アプリケーション<br>
-        <img src="img/Adobe_Illustrator_Icon_(CS6).svg" alt="#">
-        <img src="img/Adobe_Photoshop_CS6_icon.svg" alt="#">
-        <img src="img/Adobe_InDesign_CC_icon.svg" alt="#">
+        <table>
+          <tr>
+            <td><img src="img/html-5.svg" alt="#"></td>
+            <td><img src="img/css-3.svg" alt="#"></td>
+            <td><img src="img/javascript.svg" alt="#"></td>
+            <td><img src="img/php.svg" alt="#"></td>
+            <td><img src="img/Adobe_Illustrator_Icon_(CS6).svg" alt="#"></td>
+            <td><img src="img/Adobe_Photoshop_CS6_icon.svg" alt="#"></td>
+            <td><img src="img/Adobe_InDesign_CC_icon.svg" alt="#"></td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>PHP</td>
+            <td>Illustrator</td>
+            <td>Photoshop</td>
+            <td>InDesign</td>
+          </tr>
+        </table>
       </p>
       <a href="#" id="close">×</a>
     </section>
     <section id="ingallary">
       <h2>GALLERY</h2>
-      <p><br><br><br>coming soon…<br><br><br></p>
+      <div id="link">
+        <a href="https://words-to-works.coresv.com"><img src="img/wordstowork.png">
+        </a>
+      </div>
+      <div id="description">
+        <p>
+          掲示板サイトを作成しました。<br>
+          使用言語:HTML,CSS,PHP,SQL<br>
+          username：user<br>
+          password：password<br>
+          でログインできます。<br>
+          新規登録も可能です。
+        </p>
+      </div>
+      <div id="link2">
+        <a href="img/DTP.png" data-lightbox="group"><img src="img/DTP.png" alt="#"></a>
+      </div>
+      <div id="description2">
+        <p>
+          前職での制作物です。<br>
+          使用ソフト<br>Illustrator,Photoshop,Artpro<br>
+          クリックで拡大します。<br>
+        </p>
+      </div>
       <a href="#" id="close2">×</a>
     </section>
   </div>
